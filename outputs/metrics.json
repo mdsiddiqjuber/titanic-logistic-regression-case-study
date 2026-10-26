@@ -1,0 +1,62 @@
+{
+  "dataset_rows": 891,
+  "dataset_columns": 12,
+  "training_rows": 712,
+  "testing_rows": 179,
+  "survivors": 342,
+  "non_survivors": 549,
+  "survival_rate": 0.3838383838383838,
+  "accuracy": 0.7988826815642458,
+  "precision": 0.7796610169491526,
+  "recall": 0.6666666666666666,
+  "f1_score": 0.71875,
+  "roc_auc": 0.8436100131752305,
+  "confusion_matrix": [
+    [
+      97,
+      13
+    ],
+    [
+      23,
+      46
+    ]
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.8083333333333333,
+      "recall": 0.8818181818181818,
+      "f1-score": 0.8434782608695652,
+      "support": 110.0
+    },
+    "1": {
+      "precision": 0.7796610169491526,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.71875,
+      "support": 69.0
+    },
+    "accuracy": 0.7988826815642458,
+    "macro avg": {
+      "precision": 0.7939971751412429,
+      "recall": 0.7742424242424242,
+      "f1-score": 0.7811141304347826,
+      "support": 179.0
+    },
+    "weighted avg": {
+      "precision": 0.7972808761796547,
+      "recall": 0.7988826815642458,
+      "f1-score": 0.7953986519310178,
+      "support": 179.0
+    }
+  },
+  "random_state": 42,
+  "test_size": 0.2,
+  "features": [
+    "Age",
+    "SibSp",
+    "Parch",
+    "Fare",
+    "Pclass",
+    "Sex",
+    "Embarked"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "features": [
+    "Age",
+    "SibSp",
+    "Parch",
+    "Fare",
+    "Pclass",
+    "Sex",
+    "Embarked"
+  ],
+  "numeric_features": [
+    "Age",
+    "SibSp",
+    "Parch",
+    "Fare"
+  ],
+  "categorical_features": [
+    "Pclass",
+    "Sex",
+    "Embarked"
+  ],
+  "target": "Survived",
+  "random_state": 42,
+  "test_size": 0.2,
+  "threshold": 0.5,
+  "sklearn_version": "1.8.0"
+}

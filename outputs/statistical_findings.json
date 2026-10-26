@@ -1,0 +1,22 @@
+{
+  "survival_rate_by_sex": {
+    "female": 0.7420382165605095,
+    "male": 0.18890814558058924
+  },
+  "survival_rate_by_class": {
+    "1": 0.6296296296296297,
+    "2": 0.47282608695652173,
+    "3": 0.24236252545824846
+  },
+  "missing_age_count": 177,
+  "missing_cabin_count": 687,
+  "missing_embarked_count": 2,
+  "median_age": 28.0,
+  "median_fare": 14.4542,
+  "features_excluded": [
+    "PassengerId",
+    "Name",
+    "Ticket",
+    "Cabin"
+  ]
+}
